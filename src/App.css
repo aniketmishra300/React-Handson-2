@@ -7,10 +7,16 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+body{
+
+  background: linear-gradient(#ec8585, #a4acfc,#f48b8b);
+  
 }
 
 .App-header {
@@ -22,6 +28,57 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.flexBox{
+  border: black solid 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: relative;
+  left: 12%;
+  top: 15vh;
+  width: 77vw;
+  height: auto;
+  background-color: rgb(212, 227, 241);
+}
+
+.innerDiv{
+  border: black solid 2px;
+  border-radius: 15px;
+  width: 35vw;
+   height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+   font-size: 20px;
+   font-weight: bold;
+   background-color:burlywood;
+}
+
+.inputs{
+  font-size: xx-large;
+ 
+}
+
+input{
+  border-radius: 15px;
+  width: 250px;
+  height: 40px;
+  margin: 10px;
+  background-color: aliceblue;
+  font-size: 25px;
+}
+
+button{
+  font-size: xx-large;
+  height: 60px;
+  width: 250px;
+  border-radius: 25px;
+  background-color: rgb(173, 202, 227);
 }
 
 .App-link {
